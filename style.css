@@ -1,0 +1,63 @@
+/* *{
+    margin: 0;
+    padding: 0;
+} */
+body {
+    display: flex;
+    justify-content: center;
+       text-align: center;
+}
+.main > * {
+    border: 1px dotted rgb(87, 2, 2);
+    padding: 10px;
+    width: 70vw;
+    height: 50vh;
+    display: inline-flexbox;
+    overflow: auto;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin: 15px;
+}
+.about {
+    color: rgb(18, 18, 85);
+}
+.h1vs{
+    color: rgb(95, 97, 3);
+}
+.javasc{
+    color: rgb(247, 0, 255);
+}
+.javasc > img {
+    width: 40vw;
+    height: 35vh;
+}
+.objjav{
+    color: rgb(2, 117, 18);
+}
+.webeng{
+    color: rgb(255, 60, 0);
+}
+.codekatal{
+    color: blue;
+}
+.ip-mac{
+    color: rgb(155, 101, 2);
+}
+h3{
+    font-size: larger;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    /* /* display: flex; */
+    justify-content: space-around; 
+}
+.about > h3 > p{
+    font-size: larger;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
+    /* display: flex; */
+    /* justify-content: space-around; */
+    padding: 20px;
+}
+.left{
+    text-align: left;
+}
